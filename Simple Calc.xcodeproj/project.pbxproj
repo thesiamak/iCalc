@@ -14,6 +14,7 @@
 		963B38602BEF629E00F1C869 /* Simple_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B385F2BEF629E00F1C869 /* Simple_CalcTests.swift */; };
 		963B386A2BEF629E00F1C869 /* Simple_CalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B38692BEF629E00F1C869 /* Simple_CalcUITests.swift */; };
 		963B386C2BEF629E00F1C869 /* Simple_CalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963B386B2BEF629E00F1C869 /* Simple_CalcUITestsLaunchTests.swift */; };
+		966DECCA2BF082260075BEA5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966DECC92BF082260075BEA5 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		963B38652BEF629E00F1C869 /* Simple CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		963B38692BEF629E00F1C869 /* Simple_CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_CalcUITests.swift; sourceTree = "<group>"; };
 		963B386B2BEF629E00F1C869 /* Simple_CalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_CalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		966DECC92BF082260075BEA5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		963B384D2BEF629C00F1C869 /* Simple Calc */ = {
 			isa = PBXGroup;
 			children = (
+				966DECC82BF082170075BEA5 /* operations */,
 				963B384E2BEF629C00F1C869 /* Simple_CalcApp.swift */,
 				963B38502BEF629C00F1C869 /* ContentView.swift */,
 				963B38522BEF629E00F1C869 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				963B386B2BEF629E00F1C869 /* Simple_CalcUITestsLaunchTests.swift */,
 			);
 			path = "Simple CalcUITests";
+			sourceTree = "<group>";
+		};
+		966DECC82BF082170075BEA5 /* operations */ = {
+			isa = PBXGroup;
+			children = (
+				966DECC92BF082260075BEA5 /* File.swift */,
+			);
+			path = operations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				963B38512BEF629C00F1C869 /* ContentView.swift in Sources */,
+				966DECCA2BF082260075BEA5 /* File.swift in Sources */,
 				963B384F2BEF629C00F1C869 /* Simple_CalcApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +442,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +472,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
